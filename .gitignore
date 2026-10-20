@@ -1,0 +1,19 @@
+# Foundry build and runtime output
+out/
+cache/
+broadcast/
+
+# Dependencies installed from pinned project manifests
+node_modules/
+
+# Local tools and secrets
+.tools/
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# forge-std, installed at the revision documented in README
+lib/

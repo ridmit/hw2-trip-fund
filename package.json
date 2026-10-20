@@ -1,0 +1,21 @@
+{
+  "name": "hw2-trip-fund",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local Solidity TripFund homework with a transparent proxy upgrade",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test",
+    "validate": "forge test --match-contract TripFundUpgradeTest -vv",
+    "fmt:check": "forge fmt --check"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "5.4.0",
+    "@openzeppelin/contracts-upgradeable": "5.4.0",
+    "@openzeppelin/foundry-upgrades": "0.4.2",
+    "@openzeppelin/upgrades-core": "1.46.0"
+  }
+}
